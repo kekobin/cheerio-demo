@@ -63,6 +63,29 @@ app.get('/scrape', function(req, res) {
 
 })
 
+app.get('/test', function(req, res) {
+	var data = require('http://test.www.huya.com/hd/unionfight/index.php?m=UnionFight&do=ajaxGetWinners');
+data.done(function(resp) {
+	fs.writeFile('response.json', JSON.stringify(resp, null, 4), function(err) {
+
+				console.log('=============================hahahahah============================');
+
+			})
+})
+		
+		// .on('response', function(response) {
+		// 	console.log(response.body) // 200 
+			// fs.writeFile('response.json', JSON.stringify(response, null, 4), function(err) {
+
+			// 	console.log('=============================hahahahah============================');
+
+			// })
+		// })
+		// .on('error', function(err) {
+		// 	// console.log(err)
+		// })
+})
+
 app.listen('8081')
 console.log('Magic happens on port 8081');
 exports = module.exports = app;

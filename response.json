@@ -1,0 +1,35 @@
+{
+    "statusCode": 200,
+    "headers": {
+        "server": "nginx",
+        "date": "Wed, 04 Nov 2015 07:42:10 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "x-powered-by": "PHP/5.4.42",
+        "set-cookie": [
+            "PHPSESSID=4jko96donsf5apdpga6vhp8is2; path=/"
+        ],
+        "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+        "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+        "pragma": "no-cache"
+    },
+    "request": {
+        "uri": {
+            "protocol": "http:",
+            "slashes": true,
+            "auth": null,
+            "host": "test.www.huya.com",
+            "port": 80,
+            "hostname": "test.www.huya.com",
+            "hash": null,
+            "search": "?m=UnionFight&do=ajaxGetWinners",
+            "query": "m=UnionFight&do=ajaxGetWinners",
+            "pathname": "/hd/unionfight/index.php",
+            "path": "/hd/unionfight/index.php?m=UnionFight&do=ajaxGetWinners",
+            "href": "http://test.www.huya.com/hd/unionfight/index.php?m=UnionFight&do=ajaxGetWinners"
+        },
+        "method": "GET",
+        "headers": {}
+    }
+}
